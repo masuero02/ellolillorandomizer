@@ -1,0 +1,155 @@
+
+
+.champs {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(252, 136, 4, 0.63),
+    rgba(255, 62, 14, 0.425)
+  ), url("fotos/champs.jpg");
+    
+    margin: 20px;
+    padding: 2px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    /* background: linear-gradient(white, gray); */
+    height: 100vh;
+    color: #e98a1d;
+
+}
+
+.player {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(252, 136, 4, 0.63),
+    rgba(255, 62, 14, 0.425)
+  ), url("fotos/player.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+    margin: 20px;
+    padding: 2px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    /* background: linear-gradient(white, gray); */
+    height: 100vh;
+    color: #e98a1d;
+
+}
+
+h1 {
+    text-shadow: 0px 8px 0px black;
+    line-height: 64px;
+    font-size: 70px;
+    transform: rotate(-9deg);
+}
+
+h2 {
+    text-shadow: 0px 5px 0px black;
+    color: #e9971d;
+    
+    
+    
+}
+h3 {
+  text-shadow: 0px 5px 0px black;
+  color: #e9971d;
+  font-size: 40x;
+  
+  
+  
+}
+
+p {
+  text-shadow: 0px 5px 0px black;
+  color: #e9971d;
+  font-size: 30px;
+  
+  
+}
+
+#stage {
+    width: 100%;
+    height: 60px;
+    padding: 30px 0;
+    font-size: 50px;
+    margin: 0;
+}
+
+button {
+    margin: 10px;
+    cursor: pointer;
+    border: 0;
+    padding: 32px 64px;
+    border-radius: 10px;
+    background: #e98a1d;
+    color: white;
+    font-family: inherit;
+    font-size: 20px
+}
+
+img {
+    width:300px;
+    height:150px;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+}
+
+select {
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #c35628;
+    background-image: linear-gradient(to top, #f3a96d, #ff8008 33%);
+  }
+
+  input[type=text] {
+    background-color: #ffc43a;
+    color: white;
+  }
+
+  .topnav {
+   
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #f1db14;
+    color: white;
+  }
+
+  .tTeam {
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+}
+
+.bTeam {
+    background: #e98a1d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    
+}
